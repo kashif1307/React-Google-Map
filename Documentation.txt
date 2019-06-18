@@ -1,0 +1,30 @@
+Documentation for index.js
+
+'index.js' file runs the Google Map element needed in this program. 
+
+Code wrapped with <div> displays the heading of "Current Location" and then shows the legend (the pins and their respective meanings).
+
+The <Map> wrapping makes use of the Google Map component, first requiring GoogleMapURL along with an operational API Key to
+build a cross-platform URL to launch Google Maps and perform searches, get directions and navigation, and display map views and panoramic images.
+
+Loading element refers to the element which is getting rendered until Google Maps library is finished loading.
+
+containerElement controls the borders and size of the displayed map.
+
+mapElement is in charge of rendering the map component on the display outlet.
+
+center represents the centered location at which the map renders.
+
+zoom controls the quantity at which the map is zoomed.
+
+Prelocation includes latitude and longitude along with a given ID (as a good practice) to be fed into the places array in Maps.js
+which adds the marker to the pinpointed locations.
+
+
+Documentation for Map.js
+
+This file contains a funtion named addMarker as a part of Google Maps library to add static and dynamic markers to designated locations.
+
+It also contains two textboxes within 'render' function to display X (latitude) and Y (longitude) coordinates.
+
+
